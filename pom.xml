@@ -27,6 +27,15 @@
 	    <artifactId>spring-jdbc</artifactId>
 	    <version>4.3.7.RELEASE</version>
 	</dependency>
+	<!-- 导入spring的单元测试模块(spring test) -->
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-test</artifactId>
+	    <version>4.3.8.RELEASE</version>
+	    <scope>test</scope>
+	</dependency>
+	
 	<!-- spring 面向切面编程 -->
 	<!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
 	<dependency>

@@ -10,8 +10,19 @@ public class Emplovee {
     private String email;
 
     private Integer dId;
+    
+    //查询员工时候同时查到部门信息
+    private Department depart;
+    
+	public Department getDepartment() {
+		return depart;
+	}
 
-    public Integer getEmpId() {
+	public void setDepartment(Department department) {
+		this.depart = department;
+	}
+
+	public Integer getEmpId() {
         return empId;
     }
 
